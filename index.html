@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Principais Comandos de GIT</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Comandos do GitHub</h2>
+
+    <details>
+      <summary>git init</summary>
+
+      <div class="__content">
+        <p>
+          Inicialização do repositório na pasta atual. <br>
+          Cria uma pasta oculta .git onde tem as configurações do repositório criado.
+        </p>
+      </div>
+    </details>
+
+    <details>
+      <summary>git status</summary>
+
+      <div class="__content">
+        <p>
+          Exibe estado atual do repositório Git. <br>
+          Mostra informações importantes sobre o estado do repositório Git, como o nome do branch atual, os arquivos que foram modificados desde o último commit, os arquivos que foram adicionados ou excluídos, e se existem arquivos que foram modificados mas ainda não foram adicionados para um próximo commit.
+        </p>
+      </div>
+    </details>
+
+    <details>
+      <summary>git add name.file || git add .</summary>
+
+      <div class="__content">
+        <p>
+          Adiciona arquivos para o fluxo de versionamento. <br>
+          Quando informado o nome do arquivo ele adiciona apenas o arquivo informado, se tiver vários arquivos a serem enviados para o fluxo de versionamento é usado um ponto no final que representa todos os arquivos.
+        </p>
+      </div>
+    </details>
+
+    <details>
+      <summary>git commit -a -m "Description do commit"</summary>
+
+      <div class="__content">
+        <p>
+          Cria um novo commit com todas as alterações adicionadas no fluxo de versionamento (git add .). <br>
+          O parâmetro -a serve para instruir o Git adicionar o commit para todas as alterações do fluxo. <br>
+          O parâmetro -m é usado para adicionar uma mensagem de commit, que seria a descrição do commit que está tentando enviar.
+        </p>
+      </div>
+    </details>
+  </div><!-- container -->
+</body>
+
+</html>
